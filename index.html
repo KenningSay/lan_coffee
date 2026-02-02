@@ -21,12 +21,27 @@
             h1 {
                 color: #333;
             }
+            .button {
+                background-color: #a7b46c;
+                color: #858484;
+                border: 4px;
+                padding: 12px 24px;
+                font-size: 16px;
+                border-radius: 15px;
+                cursor: pointer;
+                margin-top: 15px;
+                transition: background-color 0.3s;
+            }
+            button:hover {
+                background-color: #724040;
+            }
         </style>
     </head>
     <body>
         <div class="card">
             <h1>Добрый день, меня зовут Александр!</h1>
             <p>Это мой пример создания сайта который пойдет в мое протфолио.</p>
+            <button onclick="alert('Привет')">Press to me</button>
         </div>
     </body>
 </html>
