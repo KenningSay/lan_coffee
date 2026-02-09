@@ -63,3 +63,15 @@ nav ul {
  .cta-button:hover {
     transform: scale(1.05);
  }
+
+ .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #261b2b;
+ }
+ .hero p {
+    font-size: 20px;
+    color: #66667e;
+    margin-bottom: 30px;
+ }
