@@ -59,3 +59,6 @@ nav ul {
     border-radius: 30px; /*Скругление краев*/
     transition: transform 0.3s;
  }
+ .cta-button:hover {
+    transform: scale(1.05);
+ }
