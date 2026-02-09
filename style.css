@@ -103,3 +103,12 @@ nav ul {
     height: 50vh;
     gap: 30px;
  }
+ #about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.6;
+}
