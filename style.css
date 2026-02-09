@@ -16,6 +16,8 @@ header {
     position: sticky;
     top: 2px;
     z-index: 100;
+
+    margin: 25%;
 }
 
 .logo {
