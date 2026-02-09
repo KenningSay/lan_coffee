@@ -118,7 +118,8 @@ nav ul {
     margin: 40px auto;
  }
  .strengths-card {
-    background: #ffffff;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: #fdfdfd;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(50, 10, 51, 0.1); /*Тень*/
