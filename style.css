@@ -75,3 +75,13 @@ nav ul {
     color: #66667e;
     margin-bottom: 30px;
  }
+
+ .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background: -moz-linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+ }
