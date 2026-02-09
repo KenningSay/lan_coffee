@@ -86,3 +86,10 @@ nav ul {
 
     background: -moz-linear-gradient(135deg, #5c396d 4%, #5e9491 100%);
  }
+
+ .avatar {
+    width: 200px;
+    height: 200px;
+    background-color: #261b2b;
+    border-radius: 50%;
+ }
