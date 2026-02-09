@@ -97,3 +97,11 @@ nav ul {
     margin-bottom: 40px;
     color: #261b2b;
  }
+ .about-content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+
+ }
