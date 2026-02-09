@@ -87,29 +87,4 @@ nav ul {
     background: -moz-linear-gradient(135deg, #5c396d 4%, #5e9491 100%);
  }
 
- .avatar {
-    width: 200px;
-    height: 200px;
-    background-color: #261b2b;
-    border-radius: 50%;
-    flex-shrink: 0;
- }
-
- #about {
-    padding: 50px 0;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    gap: 30px;
- }
- #about h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-#about p {
-  font-size: 18px;
-  line-height: 1.6;
-}
+ 
