@@ -27,3 +27,13 @@ nav ul {
     display: flex;
     gap: 30px;
 }
+ nav a {
+    color: #667eea;
+    text-decoration: none; /*убирает подчеркивание*/
+    font-size: 16px;
+    transition: color 0.3s;
+ }
+
+ nav a:hover {
+    color: #764ba2;
+ }
