@@ -41,7 +41,7 @@ nav ul {
 
  nav a:hover {
     color: #764ba2;
-    transform: scale(1.6px);
+    transform: scale(1.6);
  }
 
  .hero {
