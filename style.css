@@ -103,5 +103,10 @@ nav ul {
     gap: 25px;
     max-width: 800px;
     margin: 0 auto;
-
+ }
+ .avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
  }
