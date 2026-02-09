@@ -21,3 +21,9 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+nav ul {
+    list-style: none; /*убираем маркеры*/
+    display: flex;
+    gap: 30px
+}
