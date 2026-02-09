@@ -49,3 +49,13 @@ nav ul {
     align-items: center; /*По горизонтали*/ 
     height: 100vh; /*На всю высоту экрана*/
  }
+
+ .cta-button {
+    text-decoration: none;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: #ffff;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 30px; /*Скругление краев*/
+    transition: transform 0.3s;
+ }
