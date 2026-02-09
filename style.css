@@ -124,8 +124,8 @@ nav ul {
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(50, 10, 51, 0.1); /*Тень*/
     flex: 1; /*Делит на равную ширину*/
+    transition: transform 0.3s;
  }
  .strengths-card:hover {
     transform: scale(1.05);
-    transition: transform 0.3s;
  }
