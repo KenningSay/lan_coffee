@@ -12,6 +12,10 @@ header {
     justify-content: space-between; /* Чтобы логотип прижался влево, а меню вправо*/
     background-color: #1a1a1a; /*Темный фон*/
     padding: 20px 50px;
+
+    position: sticky;
+    top: 2px;
+    z-index: 100;
 }
 
 .logo {
@@ -31,7 +35,7 @@ nav ul {
     color: #667eea;
     text-decoration: none; /*убирает подчеркивание*/
     font-size: 16px;
-    transition: color 0.3s;
+    transition: color 0.3s; /*Плавный переход*/
  }
 
  nav a:hover {
