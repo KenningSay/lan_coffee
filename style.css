@@ -140,3 +140,8 @@ nav ul {
     background: #b9adbd; 
     text-align: center;
  }
+ .project-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 30px;
+ }
