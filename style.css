@@ -145,3 +145,12 @@ nav ul {
    grid-template-columns: repeat(3, 1fr);
    gap: 30px;
  }
+ .project-card {
+   background: linear-gradient(90deg, #667eea, #764ba2);
+   color: #fdfdfd;
+   padding: 30px;
+   border-radius: 15px;
+   box-shadow: 0 4px 6px rgba(50, 10, 51, 0.1);
+   flex: 1;
+   transition: 0.3s;
+ }
