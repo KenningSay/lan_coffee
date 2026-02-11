@@ -130,7 +130,7 @@ nav ul {
     transform: scale(1.05);
  }
 
- .tech-tegs {
+ .tech-tags {
    display: flex;
    flex-direction: column;
  }
