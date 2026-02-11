@@ -132,11 +132,11 @@ nav ul {
 
  .tech-tags {
    display: flex;
-   flex-direction: column;
+   gap: 10px;
  }
  .tech-tags span {
    background: #fdfdfd;
-   padding: 25px;
+   padding: 5px 15px;
    border-radius: 15px;
    font-size: small;
  }
