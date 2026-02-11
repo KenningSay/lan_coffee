@@ -134,6 +134,12 @@ nav ul {
    display: flex;
    flex-direction: column;
  }
+ .tech-tags span {
+   background: #fdfdfd;
+   padding: 25px;
+   border-radius: 15px;
+   font-size: small;
+ }
 
  .project {
     padding: 80px 50px;
