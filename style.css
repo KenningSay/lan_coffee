@@ -134,6 +134,7 @@ nav ul {
    display: flex;
    gap: 10px;
    justify-content: center;
+   margin: 15px;
  }
  .tech-tags span {
    background: #fdfdfd;
