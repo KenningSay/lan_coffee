@@ -134,3 +134,9 @@ nav ul {
    display: flex;
    flex-direction: column;
  }
+
+ .project {
+    padding: 80px 50px;
+    background: #b9adbd; 
+    text-align: center;
+ }
