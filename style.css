@@ -171,3 +171,62 @@ nav ul {
    border-radius: 15px;
    margin-bottom: 15px;
  }
+
+ footer{
+   background-color: #1a1a1a;
+   color: #fdfdfd;
+   padding: 40px 20px;
+   text-align: center;
+ }
+
+ .footer-contacts {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+ }
+ footer a {
+   text-decoration: none;
+   color: #667eea;
+   transition: transform 0.3s;
+ }
+
+ footer a:hover {
+   transform: scale(1.2);
+ }
+
+ @media (max-width: 768px) {
+   .project-grid{
+      grid-template-columns: 1fr;
+   }
+   .strengths {
+      flex-direction: column;
+   }
+   header {
+      flex-direction: column;
+      padding: 15px;
+   }
+   nav ul {
+      flex-direction: row;
+      gap: 10px;
+      display: flex;
+      justify-content: center;
+
+   }
+   .logo{
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      margin: 12px;
+   }
+   .hero h1 {
+      font-size: 35px;
+      display: flex;
+      align-items: center;
+   }
+   .hero p {
+      font-size: 16px;
+   }
+   .about, .project {
+      padding: 40px 20px;
+   }
+ }
