@@ -229,4 +229,9 @@ nav ul {
    .about, .project {
       padding: 40px 20px;
    }
+   .hero {
+      height: auto;
+      min-height: 60vh;
+      padding: 60px 20px;
+   }
  }
