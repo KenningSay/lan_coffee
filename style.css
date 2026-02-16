@@ -51,7 +51,7 @@ nav ul {
     justify-content: center; /*По вертикали*/
     align-items: center; /*По горизонтали*/ 
     height: 100vh; /*На всю высоту экрана*/
-    background: -moz-linear-gradient(135deg, #5c396d 4%, #5e9491 100%);
+    background: linear-gradient(135deg, #5c396d 4%, #5e9491 100%);
  }
 
  .cta-button {
