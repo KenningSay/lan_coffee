@@ -1,231 +1,93 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
-header {
-    display: flex; /*чтобы включить флексбокс*/ 
-    justify-content: space-between; /* Чтобы логотип прижался влево, а меню вправо*/
-    background-color: #1a1a1a; /*Темный фон*/
-    padding: 20px 50px;
-
-    position: sticky;
-    top: 2px;
-    z-index: 100;
-    border-radius: 15px;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-nav ul {
-    list-style: none; /*убираем маркеры*/
     display: flex;
-    gap: 30px;
-}
- nav a {
-    color: #667eea;
-    text-decoration: none; /*убирает подчеркивание*/
-    font-size: 16px;
-    transition: color 0.3s; /*Плавный переход*/
- }
-
- nav a:hover {
-    color: #764ba2;
-    transform: scale(1.05);
- }
-
- .hero {
-    display: flex;
-    flex-direction: column; /*элементы друг под другом*/
-    justify-content: center; /*По вертикали*/
-    align-items: center; /*По горизонтали*/ 
-    height: 100vh; /*На всю высоту экрана*/
-    background: linear-gradient(135deg, #5c396d 4%, #5e9491 100%);
- }
-
- .cta-button {
-    text-decoration: none;
-    background: linear-gradient(90deg, #667eea, #764ba2);
-    color: #ffff;
-    padding: 15px 40px;
-    font-size: 18px;
-    border-radius: 30px; /*Скругление краев*/
-    transition: transform 0.3s;
- }
- .cta-button:hover {
-    transform: scale(1.05);
- }
-
- .hero h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #261b2b;
- }
- .hero p {
-    font-size: 20px;
-    color: #fdfdfd;
-    margin-bottom: 30px;
- }
-
- .about {
-    padding: 80px 50px;
-    background: #b9adbd; 
-    text-align: center;
- }
-
- .about h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: #261b2b;
- }
- .about-content {
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 25px;
-    max-width: 800px;
-    margin: 0 auto;
- }
- .avatar img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
- }
-
- .strengths {
-    display: flex;
-    gap: 20px;
-    max-width: 900px;
-    margin: 40px auto;
- }
- .strengths-card {
-    background: linear-gradient(90deg, #667eea, #764ba2);
-    color: #fdfdfd;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(50, 10, 51, 0.1); /*Тень*/
-    flex: 1; /*Делит на равную ширину*/
-    transition: transform 0.3s;
- }
- .strengths-card:hover {
-    transform: scale(1.05);
- }
-
- .tech-tags {
-   display: flex;
-   gap: 10px;
-   justify-content: center;
-   margin-top: 15px;
- }
- .tech-tags span {
-   background: #fdfdfd;
-   padding: 5px 15px;
-   border-radius: 15px;
-   font-size: small;
-   color: #261b2b;
- }
-
- .project {
-    padding: 80px 50px;
-    background: #b9adbd; 
     text-align: center;
- }
- .project-grid {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   gap: 30px;
- }
- .project-card {
-   background: #261b2b;
-   color: #fdfdfd;
-   padding: 30px;
-   border-radius: 15px;
-   box-shadow: 0 4px 6px rgba(50, 10, 51, 0.1);
-   flex: 1;
-   transition: 0.3s;
+    background: linear-gradient(90deg, #2f1136 0.000%, #341234 8.333%, #3a1634 16.667%, #421c38 25.000%, #4a233e 33.333%, #532d46 41.667%, #5b3751 50.000%, #63435d 58.333%, #69506b 66.667%, #6e5c7a 75.000%, #70688a 83.333%, #707499 91.667%, #6e7ea9 100.000%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: column; /* ← верни column */
+    justify-content: center; /* ← убери space-between */
+    align-items: center;
+    gap: 30px; /* ← добавь промежутки между элементами */
+    
+    color: #ffffff;
+    border-radius: 45px; /* ← уменьши скругление */
+    background: linear-gradient(90deg, #05050a 0.000%, #090a0e 8.333%, #0d0e12 16.667%, #121316 25.000%, #16171a 33.333%, #1a1b1e 41.667%, #1e1f22 50.000%, #222326 58.333%, #26272a 66.667%, #292a2d 75.000%, #2c2d30 83.333%, #2e2f33 91.667%, #303135 100.000%);
+    
+    padding: 60px 140px; /* ← разумные отступы */
+    max-width: 900px; /* ← ограничь ширину */
+    box-shadow: 55px 31px 40px #1c083677;
+}
+    
+
+
+
+
+.accent {
+    color: rgba(102, 2, 2, 0.952);
+    font-weight: bold;
+    padding: 4px 8px ;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #ff2af3 0.000%, #f749df 20.000%, #d566e5 40.000%, #a881fd 60.000%, #7d9aff 80.000%, #61aff7 100.000%);
+    transition: 0.5s;
+    font-family: monospace;
+}
+
+ .js_button {
+  background-image: linear-gradient(to right, #AA076B 0%, #61045F 51%, #AA076B 100%);
+}
+
+.js_button {
+  margin: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0.5px 0.5px 5px #eee;
+  border-radius: 12px;
+  display: block;
+  outline: none;
+  border: none;
+  font-family: monospace;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.js_button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform:scale(1.12);
+}
+ .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
  }
 
- .project-card img {
-   width: 100%;
-   height: 200px;
-   object-fit: cover;
-   border-radius: 15px;
-   margin-bottom: 15px;
+ a {
+    text-decoration: none;
+    background: radial-gradient(circle,rgb(224, 143, 89) 88%, rgb(178, 252, 246) 100%);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin-left: 15px;
+    cursor:pointer;
+    transition: 0.5s;
+    border: #ffffff;
  }
-
- footer{
-   background-color: #1a1a1a;
-   color: #fdfdfd;
-   padding: 40px 20px;
-   text-align: center;
- }
-
- .footer-contacts {
-   display: flex;
-   justify-content: center;
-   gap: 30px;
-   align-items: center;
- }
- footer a {
-   text-decoration: none;
-   color: #667eea;
-   transition: transform 0.3s;
- }
-
- footer a:hover {
-   transform: scale(1.2);
- }
-
- @media (max-width: 768px) {
-   .project-grid{
-      grid-template-columns: 1fr;
-   }
-   .strengths {
-      flex-direction: column;
-   }
-   header {
-      flex-direction: column;
-      padding: 15px;
-   }
-   nav ul {
-      flex-direction: row;
-      gap: 10px;
-      display: flex;
-      justify-content: center;
-
-   }
-   .logo{
-      font-size: 18px;
-      display: flex;
-      justify-content: center;
-      margin: 12px;
-   }
-   .hero h1 {
-      font-size: 35px;
-      display: flex;
-      align-items: center;
-   }
-   .hero p {
-      font-size: 16px;
-   }
-   .about, .project {
-      padding: 40px 20px;
-   }
-   .hero {
-      height: auto;
-      min-height: 60vh;
-      padding: 60px 20px;
-   }
+ .hed{
+    font-size: 35px;
+    color: #d3edee;
+    font-weight: bold;
  }
