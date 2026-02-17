@@ -2,12 +2,19 @@ console.log("ЭТО ВЕДРО ЗАПУЩЕНО, УРА");
 
 // Переменные
 let knopka = document.querySelector('.js_button');
+let fon = document.querySelector('.backgound');
 let frazy = ["АХАХА!", "ЕЩЁ!", "ХВАТИТ УЖЕ!", "ТЫ МОНСТР!"];
 let emoji = ["💥", "🔥", "⚡", "🍆", "😈", "🤘", "💀"]; 
 let glitchOn = false;
 let timer = null;
 
+
 //Функции
+
+function traska(){
+    return Math.floor(Math.random() * 180 - 85);
+}
+
 function randomColor(){
     return '#' + Math.floor(Math.random() * 16777215).toString(16);
 }
@@ -28,13 +35,16 @@ function spawnEmoji(){
 }
 
 function startGlitch(){
+    document.body.style.transition = 'transform 0.6s, background 1.8s';
     timer = setInterval(function(){
         document.body.style.background = randomColor();
-    }, 100)
+        document.body.style.transform = 'translate(' + traska() + 'px, ' + traska() + 'px)';
+    }, 500)
 }
 
 function stopGlitch(){
     clearInterval(timer);
+    document.body.style.transform = 'translate(0px, 0px)';
 }
 
 //Клик
@@ -46,6 +56,9 @@ knopka.onclick = function(){
         spawnEmoji();
     }
 
+}
+
+fon.onclick = function(){
     if (glitchOn === false){
         startGlitch();
         glitchOn = true;
